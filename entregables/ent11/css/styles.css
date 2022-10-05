@@ -1,0 +1,86 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.container-fluid {
+  min-height: 700px;
+  min-width: 400px;
+  max-height: 1200px;
+}
+
+.top__menu{
+  background-color: #1b1464;
+  height: 40px;
+}
+
+.logo {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding-top: 15px;
+    height: 50px;
+    width: 100%;
+    font-size: 50px;
+    color: #1b1464;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+
+  .nav{
+    padding-top: 1rem;
+    font-size: small;
+  }
+  .flexbox {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: row wrap;
+            flex-flow: row wrap;
+    height: 100%;
+    width: auto;
+    margin-top: 1rem;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+
+  .titulo{
+    padding-top: 1rem;
+    font-size: large;
+  }
+
+  .flexbox {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: row wrap;
+            flex-flow: row wrap;
+    height: 100%;
+    width: auto;
+    margin-top: 1rem;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  
+  .flexbox div {
+    margin: 15px;
+  }
+  
+  .flexbox > p {
+    padding: 30px;
+  }
+  
+  .card {
+    margin-top: 20px;
+    width: 18rem;
+  }
